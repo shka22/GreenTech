@@ -1,0 +1,25 @@
+*{
+    color: rgb(15, 14, 14);
+    margin: 0;
+    padding-left: 0;}
+
+    /*LOGO2  */
+
+    img.logo2{margin-top: 5px;display: flex;}
+
+    /* SECTION */
+    #section{width: 2000px;height: 90vh;
+        border: 4px solid rgb(5, 141, 107);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          /* margin pour déplacer de 20px, séparer l'image du texte */
+        margin-bottom: 20px;
+        /* gap vous permet de séparer tous vos éléments, toujours à l'endroit ou il y a le display flex, il sépare
+        les éléments enfant via les fe */
+        gap: 20px;
+   position: relative; }
+
+   .section0{ background: url(Ttourne1.gif) no-repeat center / 50%;}
+
+  .logo2{top: 5px; display: flex;position: absolute;}
